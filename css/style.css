@@ -115,3 +115,7 @@ input[type=text], input[type=password]{
     text-align: left;
     padding: 12px;
 }
+
+.main_content .wrapper{
+    padding-top: 30px;
+}

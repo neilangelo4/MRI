@@ -5,7 +5,7 @@
       <div class="main_content">
         <div class="header"> Welcome </div>
         <div class="form">
-         <button><a href="forms/registration.php">Registration</a></button>
+         <button><a href="registration.php">Registration</a></button>
          <button><a href="">Add Insurance</a></button>
          <button><a href="">Payment Report</a></button>
          <button><a href="">Approval</a></button>
