@@ -1,4 +1,3 @@
-
 <div class="wrapper">
       
       <?php require_once 'includes/sidebar.php'; ?>
