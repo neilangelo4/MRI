@@ -78,6 +78,10 @@ input[type=text], input[type=password]{
     width: 100%;
     margin-left: 200px;
 }
+.wrapper .main_content{
+    width: 100%;
+    margin-left: 200px;
+}
 .wrapper .main_content .header{
     padding: 20px;
     background: #fff;
@@ -117,18 +121,18 @@ input[type=text], input[type=password]{
     color:black;
     font-size: 23px;
 }
-.wrapper .info .myTable{
+.wrapper .data .myTable{
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #ddd;
     font-size: 18px;
 }
 
-.wrapper .info .myTable tr{
+.wrapper .data .myTable tr{
     border-bottom: 1px solid #ddd;
 }
 
-.wrapper .info .myTable th, .wrapper .info .myTable td{
+.wrapper .data .myTable th, .wrapper .data .myTable td{
     text-align: left;
     padding: 12px;
 }
@@ -148,3 +152,45 @@ input[type=text], input[type=password]{
     padding: 10px;
     font-size: 25px;
 }
+
+.sum-wrapper{
+    height: 100%;
+    margin: 0;
+}
+
+.sum-wrapper .main_content .header{
+    padding: 20px;
+    padding-left: 220px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.summary{
+    padding-left: 200px;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  

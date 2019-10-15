@@ -4,7 +4,7 @@
   
         <div class="main_content">
           <div class="header"> Welcome </div>
-          <div class="info">
+          <div class="account">
             <div>lorem lorem</div>
           </div>
         </div>

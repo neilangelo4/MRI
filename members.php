@@ -5,7 +5,7 @@
   
         <div class="main_content">
           <div class="header"> Welcome </div>
-          <div class="info">
+          <div class="data">
           <table class="myTable">
                 <tr class="header">
                     <th style="width:60%;">Name</th>
