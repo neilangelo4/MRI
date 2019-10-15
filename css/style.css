@@ -47,7 +47,7 @@ input[type=text], input[type=password]{
     position: relative;
 }
 
-.wrapper .sidebar{
+.sidebar{
     position: fixed;
     width: 200px;
     height: 100%;
@@ -55,22 +55,22 @@ input[type=text], input[type=password]{
     padding: 30px 0;
 }
 
-.wrapper .sidebar ul li{
+.sidebar ul li{
     padding: 15px; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     border-top: 1px solid rgba(225, 225,225,0.05);
 }
 
-.wrapper .sidebar ul li a{
+.sidebar ul li a{
     color: #bdb8d7;
     display: block;
 }
 
-.wrapper .sidebar ul li:hover{
+.sidebar ul li:hover{
     background: #594f8d;
 }
 
-.wrapper .sidebar ul li:hover a{
+.sidebar ul li:hover a{
     color: #fff;
 }
 
@@ -85,21 +85,38 @@ input[type=text], input[type=password]{
     border-bottom: 1px solid #e0e4e8;
 }
 
-.wrapper .main_content .form{
-    margin: 20px;
-    padding-top: 300px;
+.main_content .dash-container{
+    height: 271px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.wrapper .main_content .dash-btn-container{
+    height: 528px;
     color: #717171;
     line-height: 25px;
 }
-
-.wrapper .main_content .form button{
-    padding: 10px;
-}
-
-.wrapper .form{
+.wrapper .dash-btn-container{
     box-sizing: border-box;
+    
 }
-
+.dash-btn-container .box-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+.dash-btn-container .box-wrapper .wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 95px;
+    background: #fff;
+    margin: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 3px 1px #888888;
+}
+.dash-btn-container .box-wrapper .wrapper a{
+    color:black;
+    font-size: 23px;
+}
 .wrapper .info .myTable{
     border-collapse: collapse;
     width: 100%;
@@ -115,7 +132,19 @@ input[type=text], input[type=password]{
     text-align: left;
     padding: 12px;
 }
+.wrapper .main_content .info{
+    padding: 217px;
+    padding-top: 74px;
+}
 
-.main_content .wrapper{
-    padding-top: 30px;
+.wrapper .main_content .info .name{
+    display: flex;
+    
+}
+
+.wrapper .main_content .info input[type=submit] {
+    position: relative;
+    left: 50%;
+    padding: 10px;
+    font-size: 25px;
 }

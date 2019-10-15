@@ -5,14 +5,19 @@
       <div class="main_content">
         <div class="header">Registration Form </div>
         <div class="info">
-          <input type="text"  placeholder="First Name">
-          <input type="text"  placeholder="Middle Name">
-          <input type="text"  placeholder="Last Name">
-          <input type="text"  placeholder="Gender">
+          <div class="name">
+            <input type="text"  placeholder="First Name">
+            <input type="text"  placeholder="Middle Name">
+            <input type="text"  placeholder="Last Name">
+          </div>
+          <input type="radio" name="gender" value="Male">Male
+          <input type="radio" name="gender" value="Female">Female<br>
+
           <input type="text"  placeholder="Age">
           <input type="text"  placeholder="Occupation">
           <input type="text"  placeholder="Status">
-          <input type="text"  placeholder="Date of Birth">
+          <input type="date"  placeholder="Date of Birth">
           <input type="text"  placeholder="Place of Birth">
           <input type="text"  placeholder="Address">
+          <input type="submit">
         </div>
